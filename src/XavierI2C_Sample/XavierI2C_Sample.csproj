@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Capsium.Core\src\Capsium.Foundation.Core\Capsium.Foundation.Core.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Core\src\Capsium.Linux\Capsium.Linux.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Sensors.Atmospheric.Ccs811\Driver\Sensors.Atmospheric.Ccs811.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Sensors.Atmospheric.Si70xx\Driver\Sensors.Atmospheric.Si70xx.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Sensors.Motion.Adxl3xx\Driver\Sensors.Motion.Adxl3xx.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Sensors.Motion.Bno055\Driver\Sensors.Motion.Bno055.csproj" />
+  </ItemGroup>
+
+</Project>

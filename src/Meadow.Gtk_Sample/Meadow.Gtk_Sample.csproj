@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Capsium.Core\src\Capsium.Linux\Capsium.Linux.csproj" />
+    <ProjectReference Include="..\..\..\Capsium.Foundation\src\Capsium.Foundation.Peripherals\Displays.Gtk\Driver\Displays.Gtk.csproj" />
+  </ItemGroup>
+
+</Project>
